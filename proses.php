@@ -38,11 +38,9 @@ class Beli extends Shell {
 
     public function cetakPembelian() {
         echo "<center>";
-        echo "<----------------------------------------------------------->" . "<br>";
         echo "Anda membeli bahan bakar minyak tipe ".$this->jenis . "<br>";
         echo "Dengan Jumlah : " . $this->jumlah  . "  Liter " . "<br>";
         echo "Total yang harus anda bayar Rp. " . number_format($this->hargaBeli(), 0, '', '.') . "<br>";
-        echo "<----------------------------------------------------------->" . "<br>";
         echo "</center>";
     }
 }
